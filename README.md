@@ -65,3 +65,22 @@ import seaborn as sns
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
+
+
+### 2️⃣ Explore Data
+Check for missing values, duplicates, and data types
+Visualize distributions of Age, Income, and Spending Score
+Compare Male vs Female customers
+
+### 3️⃣ Apply K-Means
+Use 2 features (Annual Income and Spending Score) first
+Then extend to 3 features (Age, Annual Income, Spending Score)
+Identify the optimal number of clusters (k)
+
+### 4️⃣ Visualize Clusters
+2D scatter plots for feature pairs
+3D scatter plot for a complete view of segmentation
+
+### 5️⃣ Interpret Cluster Profiles
+Summarize characteristics (age, income, spending)
+Label clusters with easy-to-understand names
